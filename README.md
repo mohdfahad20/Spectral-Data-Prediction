@@ -6,7 +6,7 @@ This project aims to predict vomitoxin levels using spectral data. The model is 
 ---
 
 ## 📁 Repository Structure  
-
+```bash
 Spectral-Data-Prediction
 ├── main-code
 │ ├── ML_InternTask_ImagoAI.ipynb # Jupyter notebook with model training
@@ -22,7 +22,7 @@ Spectral-Data-Prediction
 ├── app.py # Streamlit app for predictions
 ├── requirements.txt # List of dependencies
 ├── README.md
-
+```
 ---
 
 ## 🛠 Installation & Setup
