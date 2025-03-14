@@ -7,21 +7,21 @@ This project aims to predict vomitoxin levels using spectral data. The model is 
 
 ## 📁 Repository Structure  
 
-📂 Spectral-Data-Prediction
-├── 📂 main-code
-│ ├── 📄 ML_InternTask_ImagoAI.ipynb # Jupyter notebook with model training
+Spectral-Data-Prediction
+├── main-code
+│ ├── ML_InternTask_ImagoAI.ipynb # Jupyter notebook with model training
 │
-├── 📂 models
-│ ├── 📄 pca_model.pkl # Saved PCA model
-│ ├── 📄 scaler.pkl # Scaler for feature normalization
-│ ├── 📄 xgb_model.json # Trained XGBoost model
+├── models
+│ ├── pca_model.pkl # Saved PCA model
+│ ├── scaler.pkl # Scaler for feature normalization
+│ ├── xgb_model.json # Trained XGBoost model
 │
-├── 📂 myenv # Virtual environment (not included in Git)
+├── myenv # Virtual environment (not included in Git)
 │
-├── 📄 .gitignore # Files to ignore in Git
-├── 📄 app.py # Streamlit app for predictions
-├── 📄 requirements.txt # List of dependencies
-├── 📄 README.md
+├── .gitignore # Files to ignore in Git
+├── app.py # Streamlit app for predictions
+├── requirements.txt # List of dependencies
+├── README.md
 
 ---
 
@@ -31,22 +31,28 @@ This project aims to predict vomitoxin levels using spectral data. The model is 
 ```bash
 git clone https://github.com/mohdfahad20/Spectral-Data-Prediction.git
 cd Spectral-Data-Prediction
+```
 
-Step 2: Create and Activate Virtual Environment
-
+### **Step 2: Create and Activate Virtual Environment**
+```bash
 python -m venv myenv
-source myenv/bin/activate  # On Windows use: myenv\Scripts\activate
+On Windows use: myenv\Scripts\activate
+```
 
-Step 3: Install Dependencies
+### **Step 3: Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-Step 4: Run the Streamlit App
+### **Step 4: Run the Streamlit App**
+```bash
 streamlit run app.py
+```
 
 🎯 Model Performance
 Best Model: XGBoost
 Accuracy: 94%
-Deployment: Streamlit
+Deployment: Streamlit 
 
 🔥 Future Improvements
 Optimize feature selection for better accuracy
